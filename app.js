@@ -434,11 +434,11 @@ animation();
 function showRulesAlert() {
   alert(
     "Game Rules:\n" +
-      "1. Use left click (single finger touch on the touchpad), right click (double finger touch on the touchpad), or the space bar to generate a weapon, heavy weapon, and massive weapon, respectively. Tackle the incoming asteroid towards the center and destroy it before it reaches the center.\n" +
-      "2. If the asteroid is destroyed successfully, the score will increase by 10. If failed to destroy, the game will be over.\n" +
-      "3. Generating a weapon using left click (single finger touch on the touchpad) does not deduct any points from your scoreboard.\n" +
-      "4. Generating a heavy weapon using right click (double finger touch on the touchpad) will deduct 2 points from your scoreboard, and this weapon can only be generated if your score is greater than or equal to 2.\n" +
-      "5. Generating a massive weapon using the space bar will deduct 20 points from your scoreboard, and this weapon can only be generated if your score is greater than or equal to 20.\n" +
+      "1. Use left click (single finger touch on the touchpad), right click (double finger touch on the touchpad), or the space bar to generate a weapon, heavy weapon, and massive weapon, respectively. Tackle the incoming asteroid towards the center and destroy it before it reaches the center.\n" +"\n"+
+      "2. If the asteroid is destroyed successfully, the score will increase by 10. If failed to destroy, the game will be over.\n" +"\n"+
+      "3. Generating a weapon using left click (single finger touch on the touchpad) does not deduct any points from your scoreboard.\n" +"\n"+
+      "4. Generating a heavy weapon using right click (double finger touch on the touchpad) will deduct 2 points from your scoreboard, and this weapon can only be generated if your score is greater than or equal to 2.\n" +"\n"+
+      "5. Generating a massive weapon using the space bar will deduct 20 points from your scoreboard, and this weapon can only be generated if your score is greater than or equal to 20.\n" +"\n"+
       "6. This game is designed for laptops and PCs. For the best experience, use the Chrome browser."
   );
 }
