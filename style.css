@@ -1,0 +1,105 @@
+.myGame {
+  height: 100vh;
+}
+canvas {
+  background-color: rgb(0, 0, 0);
+  max-width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.scoreBoard {
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  color: whitesmoke;
+  display: none;
+}
+form {
+  background-color: cadetblue;
+  height: 60vh;
+  width: 60vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+form > select,
+form select option {
+  padding: 2vmax;
+  width: 20vw;
+  text-align: center;
+  font-size: 1.4vmax;
+  font-family: cursive;
+  outline: none;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 2rem;
+}
+
+form > input {
+  margin: 2vmax;
+  padding: 2vmax;
+  width: 20vw;
+  cursor: pointer;
+  border: none;
+  color: whitesmoke;
+  transition: all 0.5s;
+  background-color: rgb(20, 226, 192);
+  font-size: 1.4vmax;
+  font-family: cursive;
+  outline: none;
+  border-radius: 2rem;
+}
+form > select:hover {
+  background-color: cyan;
+  box-shadow: 0 0 2rem whitesmoke;
+}
+form > input:hover {
+  background-color: green;
+  box-shadow: 0 0 2rem whitesmoke;
+}
+.gameover {
+  background-color: rgb(192, 76, 9);
+  border-radius: 1rem;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  height: 50vh;
+  width: 50vw;
+  transform: translateX(-50%) translateY((-50%));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameover > button {
+  padding: 1vmax;
+  border: none;
+  cursor: pointer;
+  width: 10vw;
+  background-color: rgb(95, 210, 228);
+  font: 900 1.1vmax cursive;
+  transition: all 0.5;
+  border-radius: 1rem;
+}
+.gameover > button:hover {
+  background-color: green;
+  color: whitesmoke;
+  box-shadow: 0 0 2rem whitesmoke;
+}
+.gameover > div {
+  margin: 2vmax;
+  color: whitesmoke;
+  font: 600 1.2vmax cursive;
+}
